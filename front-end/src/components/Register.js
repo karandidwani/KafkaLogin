@@ -32,27 +32,6 @@ class Register extends Component {
                     </div>
                 </div>
                 <div className="row justify-content-md-center">
-                      <div className="col-md-2">
-                           <form>
-
-                                <div className="form-group RegisterLabels">
-                                   First Name
-                                </div>
-
-                               <div className="form-group RegisterLabels">
-                                   Last Name
-                               </div>
-
-                                <div className="form-group RegisterLabels">
-                                    Username
-                                </div>
-
-                                <div className="form-group RegisterLabels">
-                                    Password
-                                </div>
-
-                            </form>
-                        </div>
 
                         <div className="col-md-3">
                             <form>

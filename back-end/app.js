@@ -36,7 +36,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(expressSessions({
     secret: "CMPE273_passport",
-    resave: false,
+    resave: true,
     //Forces the session to be saved back to the session store, even if the session was never modified during the request
     saveUninitialized: false, //force to save uninitialized session to db.
     //A session is uninitialized when it is new but not modified.
